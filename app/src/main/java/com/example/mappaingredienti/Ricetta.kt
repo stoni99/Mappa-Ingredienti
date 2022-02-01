@@ -26,6 +26,8 @@ class Ricetta : Serializable {
             val name: String = ingredientName.substring(0, 1).toUpperCase() + ingredientName.substring(1)
             ingredients_string.append("\u25CF ").append(name).append(", ").append(ingredients[ingredientName]).append("\n")
         }
-        return ingredients_string.
+        return ingredients_string.toString()
     }
+
+
 }

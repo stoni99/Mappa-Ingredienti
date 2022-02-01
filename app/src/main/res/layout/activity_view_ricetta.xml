@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+    -<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".RecipeViewerActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout2"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+
+    -<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ImageView android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:id="@+id/imageview_ricetta"
+        android:src="@drawable/icon_arrow_down"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/img_ricetta"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/textview_nome_ricetta"
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:text="@string/txt_no_text"
+        android:gravity="center"
+        android:layout_marginTop="24dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:textSize="22sp"
+        android:textColor="#303030"
+        android:text="@string/txt_ingredienti"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/textview_ingredients"
+        android:textSize="20sp"
+        android:text="@string/txt_no_text"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnOrderNow"
+        android:textSize="20sp"
+        android:text="@string/btn_OrdinaOra"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24sp"
+        android:layout_marginStart="24dp"
+        android:onClick="openOrderActivity"
+        android:backgroundTint="@color/colorButton"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnShowStep"
+        android:textSize="20sp"
+        android:text="@string/btn_consulta"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:onClick="openStepActivity"
+        android:backgroundTint="@color/colorButton"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnViewMap"
+        android:textSize="20sp"
+        android:text="@string/btn_viewmaps"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:onClick="openMapActivity"
+        android:backgroundTint="@color/colorButton"
+        android:layout_marginBottom="50dp"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

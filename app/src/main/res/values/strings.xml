@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Mappa Ingredienti</string>
+    <string name="maps_api_key">AIzaSyDNsA0QvbPjG01c_E2NvGQpQ1ljLfNdHEU</string>
+    <string name="ricettappp">Ricetta passo per passo</string>
+    <string name="doveconsegnare">Dove dobbiamo consegnare?</string>
+    <string name="btn_trova_indirizzo">Trova indirizzo di spedizione</string>
+    <string name="txt_indirizzo">Indirizzo di spedizione:</string>
+    <string name="btn_acquista">Acquista</string>
+    <string name="btn_annulla">Annulla</string>
+    <string name="txt_staiordinando">Stai ordinando:\n</string>
+    <string name="txt_numero">Inserisci il numero di persone:</string>
+    <string name="txt_add_number">Numero</string>
+    <string name="btn_calcola_ingredienti">Calcola ingredienti</string>
+    <string name="txt_consegna">Ti verranno consegnati:</string>
+    <string name="btn_impatto">Calcola Impatto ambientale</string>
+    <string name="txt_co2">"Totale CO2 emessa: "</string>
+    <string name="txt_no_text">-</string>
+    <string name="btn_continua">Continua</string>
+    <string name="img_ricetta">Immagine ricetta</string>
+    <string name="txt_ingredienti">Ingredienti</string>
+    <string name="btn_OrdinaOra">Ordina Ora</string>
+    <string name="btn_consulta">Consulta ricetta</string>
+    <string name="btn_viewmaps">Visualizza mappa</string>
+
+
+
 </resources>

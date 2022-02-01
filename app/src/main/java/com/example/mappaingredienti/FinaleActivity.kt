@@ -26,7 +26,7 @@ class FinaleActivity : AppCompatActivity() {
     var fusedLocationProviderClient: FusedLocationProviderClient? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_finish)
+        setContentView(R.layout.activity_finale)
         recipe
         textViewAddress = findViewById(R.id.textview_indirizzo)
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
