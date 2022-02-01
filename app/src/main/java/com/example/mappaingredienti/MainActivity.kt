@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), AdaptRicetta.ItemClickListener {
         val linearLayoutManager = LinearLayoutManager(this)
         recyclerView.setLayoutManager(linearLayoutManager)
         mAdapter = AdaptRicetta()r(this, recipeList)
-        mAdapter.setClickListener(this)
+        mAdapter.setClickListener(this
         recyclerView.setAdapter(mAdapter)
         val dividerItemDecoration = DividerItemDecoration(recyclerView.getContext(), linearLayoutManager.orientation)
         recyclerView.addItemDecoration(dividerItemDecoration)
